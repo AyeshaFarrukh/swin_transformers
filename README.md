@@ -1,5 +1,3 @@
-# Swin Transformers
-
 # Self-Supervised Modality-Agnostic Pre-Training of SWIN Transformers
 
 ## Table of Contents
@@ -68,11 +66,59 @@ The proposed research has the potential to make a significant contribution to th
 
 ## Installation
 
-1. Clone the repository:
+You can run this project using Jupyter Notebook, Google Colab, or Visual Studio Code with a Python environment. Here are the steps for each:
+
+### Jupyter Notebook
+
 
 ```bash
+pip install notebook
+
 git clone https://github.com/AyeshaFarrukh/swin_transformers.git
 cd swin_transformers
 
+pip install -r requirements.txt
 
+jupyter notebook
+
+```
+Open and run the code.ipynb notebook.
+
+### Google Colab
+
+	1.	Upload the code.ipynb notebook and data/ folder to your Google Drive.
+	2.	Open Google Colab and load the code.ipynb notebook.
+	3.	Modify the paths in the notebook to point to the data in your Google Drive.
+	4.	Run the notebook.
+
+### Visual Studio Code
+
+	1.	Install Visual Studio Code if you haven’t already.
+	2.	Install the Python extension for Visual Studio Code.
+	3.	Clone the repository:
+
+```bash
+
+git clone https://github.com/AyeshaFarrukh/swin_transformers.git
+cd swin_transformers
+
+pip install -r requirements.txt
+```
+
+Open the code.ipynb notebook in Visual Studio Code and run the cells.
+
+### Usage
+
+#### Data Preprocessing and Visualization:
+
+Open and run the code.ipynb notebook to preprocess the data and generate visualizations.
+
+#### Visualizations
+
+The following visualizations are generated and displayed in the dashboard:
+
+	1.	Bar Graph: Displays the number of training and test images.
+	2.	Pie Chart: Shows the data distribution.
+	3.	Line Chart: Visualizes the average loss after training.
+	4.	generated Images: Shows the generated images by model.
 
